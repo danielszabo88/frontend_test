@@ -1,11 +1,13 @@
-import Comp1 from './components/Comp1.js'
-import './App.css';
+import AppContainer from './components/AppContainer.style';
+import HeadLine from './components/HeadLine.style'
+import Grid from './components/Grid'
 
 function App() {
   return (
-    <div className="App">
-      <Comp1 yo="yoo"/>
-    </div>
+    <AppContainer>
+      <HeadLine>HEADLINE</HeadLine>
+      <Grid />
+    </AppContainer>
   );
 }
 
